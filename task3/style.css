@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+body {
+	overflow: auto;
+	font-family: 'Mukta', sans-serif;
+	background-color: rgb(15, 15, 15);
+}
+
+h1{
+	text-align: center;
+    font-size: 30px;
+    background-color: #b3c6e4;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 27px;
+    width: 475px;
+    margin: 21px auto;
+}
+h3{
+	margin-top: 20px;
+}
+h4{
+	opacity: 0.5;
+	padding: 8px;
+	color: #919090;
+	text-align: center;
+}
+hr{
+	border-style: none;
+    border-top-style:ridge;
+    border-width: 2px;
+    border-color: rgb(243, 240, 240)  ;
+    width: 37%;
+    margin: 10px auto;
+	
+}
+input{
+	text-align: center;
+	font-size: 21px;
+}
+
+ul {
+	text-align: left;
+	padding-left: 10%;
+	padding: 4% 7%;
+	font-size: 2rem;
+	list-style: circle;
+}
+li{
+	background-color: #78e6e6;;
+	width: 400px;
+	transition: width 1s, height 2s;
+	text-align: center;
+	font-family: 'Shantell Sans', cursive;
+	border-radius: 40px;
+	list-style-type: square;
+	padding: 5px;
+	box-shadow: 10px;
+	font-size: 25px;
+	margin-top: 18px;
+}
+#list2 li{
+	background-color: #deebf0;;
+	width: 400px;
+	text-align: center;
+	font-family: 'Shantell Sans', cursive;
+	border-radius: 40px;
+	list-style-type: square;
+	padding: 5px;
+	box-shadow: 10px;
+	font-size: 25px;
+}
+li:hover{
+	transition: 2s;
+	background-color: rgb(120, 206, 120);
+	width: 700px;
+	cursor: pointer;
+}
+#list2 li:hover{
+	transition: 2s;
+	background-color: rgba(236, 61, 61, 0.507);
+	width: 700px;
+	cursor: pointer;
+}
+
+
+.main{
+	background: #919090;
+    border-radius: 20px;
+    width: 900px;
+    margin: 30px auto;
+    padding: 2px;
+}
+.inp2{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.content2{
+	background-color: #c9a6a6;
+	border: 2px solid black;
+	margin: 40px auto;
+	width: 800px;
+	text-align: center;
+}
+.content3{
+	background-color: #bac9a6;
+	border: 2px solid black;
+	margin: 40px auto;
+	width: 800px;
+	text-align: center;
+	color: green;
+}
+.input{
+	width: 800px;
+    margin: 10px auto;
+    text-align: left;
+}
+#box{
+	height: 46px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 674px;
+}
+#box1{
+	height: 47px;
+    width: 105px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 16px;
+
+}
+#box1:hover{
+	background-color: #d1d1d1;
+	transition: 0s;
+	border-width: 4px;
+}
+#box:hover{
+	background-color: antiquewhite;
+	transition: 0.5s ease-in;
+}
